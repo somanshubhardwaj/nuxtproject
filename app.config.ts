@@ -19,11 +19,11 @@ export default defineAppConfig({
     },
 
     github: {
-      dir: '/content/',
+      dir: 'content',
       branch: 'main',
       repo: 'nuxtproject',
       owner: 'somanshubhardwaj',
-      edit: true
+      edit: false
     },
 
     aside: {
@@ -47,7 +47,7 @@ export default defineAppConfig({
 
     footer: {
       credits: {
-        text: 'Brought to you by Somanshu Bhardwaj',
+        text: 'Bought to you by Somanshu Bhardwaj',
         href: 'https://somanshubhardwaj.vercel.app'
       }
     }
